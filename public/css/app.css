@@ -94,3 +94,25 @@ body {
     color: #777;
   }
 }
+
+/* add other css start
+-------------------------------------------------- */
+.img-show {
+  /* border: 1px solid #ced4da; */
+}
+.img-show img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.img-show img:hover {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  cursor: pointer;
+}
+/* add other css end
+-------------------------------------------------- */

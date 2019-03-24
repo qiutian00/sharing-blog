@@ -6,6 +6,9 @@ block main
 block content
   .row
     .col-md-8
+      .img-show
+        a(href="#")
+          img(src='/img/favicon.jpg')
       p=article.body.slice(0, 1000)
       .meta
         - if (article.user)
@@ -23,7 +26,7 @@ block content
         p.text-muted= formatDate(article.createdAt, "%b %d, %Y at %I:%M %p")
 
     .col-md-4
-      - if (!article.isNew && article.image && article.image.files && article.image.files.length)
+      // - if (!article.isNew && article.image && article.image.files && article.image.files.length)
         img(src=article.image.cdnUri + '/mini_' + article.image.files[0])
 
   form(action="/articles/"+article.id, method="post", onsubmit="return confirm('Are you sure?')")

@@ -4,15 +4,17 @@ head(prefix="og: http://ogp.me/ns# nodejsexpressdemo: http://ogp.me/ns/apps/node
   meta(name="viewport", content="width=device-width,initial-scale=1")
 
   title= pkg.name + ' - ' + title
-  meta(name="keywords", content="{{ pkg.keywords.join(',') }}")
-  meta(name="description", content="{{ pkg.description }}")
+  meta(name="keywords", content="nodejs, books, source, e-books")
+  meta(name="description", content="books show")
 
   meta(property="fb:app_id", content="293989217296609")
   meta(property="og:title", content=pkg.name + ' - ' + title)
   meta(property="og:description", content=pkg.description)
-  meta(property="og:url", content="http://nodejs-express-demo.herokuapp.com")
-  meta(property="og:site_name", content="Node.js Express Mongoose Demo")
+  meta(property="og:url", content="http://qiutian00.nodejsbooks.cn")
+  meta(property="og:site_name", content="Node.js Books")
   meta(property="fb:admins", content="1037213945")
+
+  link(rel="icon", href="/img/favicon.jpg")
 
   block head
     link(href="/css/bootstrap.min.css", rel="stylesheet")
