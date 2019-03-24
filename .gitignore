@@ -6,3 +6,4 @@ Makefile
 .env
 data
 .vscode
+.gitconfig
