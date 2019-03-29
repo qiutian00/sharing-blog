@@ -1,6 +1,6 @@
 {
-  "name": "nodejs-express-mongoose-demo",
-  "description": "A demo app illustrating the usage of express, mongoose, passportjs, pug and other modules in nodejs",
+  "name": "nodejs-books",
+  "description": "A books showing app illustrating the usage of express, mongoose, passportjs, pug and other modules in nodejs",
   "keywords": [
     "express",
     "mongoose",
