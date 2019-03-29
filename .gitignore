@@ -7,3 +7,5 @@ Makefile
 data
 .vscode
 .gitconfig
+## project tar
+nodejs-books.tar
