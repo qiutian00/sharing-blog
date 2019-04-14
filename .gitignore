@@ -1,4 +1,5 @@
 node_modules/
+package-lock.json
 .monitor
 config/env/env.json
 Makefile
@@ -6,3 +7,6 @@ Makefile
 .env
 data
 .vscode
+.gitconfig
+## project tar
+nodejs-books.tar
