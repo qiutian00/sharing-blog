@@ -1,6 +1,7 @@
 services:
   - mongodb
 language: node_js
+repo_token: Cp64E8hvXgHTnT3ioyeRxqqW9Bj5JjoK1
 node_js:
   # - "latest" # figure out how this should work! no example of this in travis ci docs
   - "10.11.0"
