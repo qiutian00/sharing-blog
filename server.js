@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- *  nodejs-books
+ *  sharing-blog
  * contacted at 1476102147@qq.com
  * MIT Licensed
  */

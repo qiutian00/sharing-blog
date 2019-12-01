@@ -1,6 +1,6 @@
 {
-  "name": "nodejs-books",
-  "description": "A books showing app illustrating the usage of express, mongoose, passportjs, pug and other modules in nodejs",
+  "name": "sharing-blog",
+  "description": "A sharing blog app illustrating the usage of express, mongoose, passportjs, pug and other modules in nodejs",
   "keywords": [
     "express",
     "mongoose",
