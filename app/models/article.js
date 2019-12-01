@@ -22,7 +22,7 @@ const setTags = tags => tags.split(',').slice(0, 10); // max tags
 
 const ArticleSchema = new Schema({
   title: { type: String, default: '', trim: true, maxlength: 400 },
-  body: { type: String, default: '', trim: true, maxlength: 1000 },
+  body: { type: String, default: '', trim: true },
   user: { type: Schema.ObjectId, ref: 'User' },
   comments: [
     {

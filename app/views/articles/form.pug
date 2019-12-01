@@ -8,7 +8,7 @@ block content
   - action += article.isNew? '' : '/' + article.id
 
   .row
-    .col-md-8
+    .col-md-12
       form(method="post", action=action, enctype="multipart/form-data", role="form")
 
         input(type="hidden", name="_csrf", value=csrf_token)
@@ -20,9 +20,9 @@ block content
           label(for='title') Title
           input.form-control#title(type='text', name="title", value=article.title, placeholder='Enter the title')
 
-        .form-group
-          label(for='file') Image
-          input.form-control-file#file(type='file', name="image")
+        //- .form-group
+        //-   label(for='file') Image
+        //-   input.form-control-file#file(type='file', name="image")
 
         .form-group
           label(for='desc') Body
