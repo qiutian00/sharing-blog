@@ -26,7 +26,9 @@ block content
 
         .form-group
           label(for='desc') Body
-          textarea.form-control#desc(rows="5", name="body", placeholder='Enter the article description')=article.body
+          textarea.form-control#desc(type="hidden", rows="5", name="body", placeholder='Enter the article description')=article.body
+          
+        div#editorSection
 
         .form-group
           label(for='tags') Tags
@@ -40,3 +42,5 @@ block content
     .col-md-4
       - if (!article.isNew && article.image && article.image.files && article.image.files.length)
         img(src=article.image.cdnUri + "/mini_" + article.image.files[0])
+
+  script(src="/js/tools/form.js",type="text/javascript")
