@@ -1,9 +1,9 @@
 
-[![Build Status](https://travis-ci.org/madhums/node-express-mongoose-demo.svg?branch=master)](https://travis-ci.org/madhums/node-express-mongoose-demo)
-[![Dependencies](https://img.shields.io/david/madhums/node-express-mongoose-demo.svg?style=flat)](https://david-dm.org/madhums/node-express-mongoose-demo)
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/madhums/node-express-mongoose-demo)
-[![Greenkeeper badge](https://badges.greenkeeper.io/madhums/node-express-mongoose-demo.svg)](https://greenkeeper.io/)
-[![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/madhums/node-express-mongoose-demo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/qiutian00/sharing-blog.svg?branch=master)](https://travis-ci.org/qiutian00/sharing-blog)
+[![Dependencies](https://img.shields.io/david/qiutian00/sharing-blog.svg?style=flat)](https://david-dm.org/qiutian00/sharing-blog)
+<!-- [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/qiutian00/sharing-blog)
+[![Greenkeeper badge](https://badges.greenkeeper.io/qiutian00/sharing-blog.svg)](https://greenkeeper.io/)
+[![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/qiutian00/sharing-blog?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) -->
 
 # Sharing Blog
 
@@ -24,15 +24,15 @@ Table of contents:
 
 ## Boilerplate
 
-Want to build something from scratch? use the [boilerplate](https://github.com/madhums/node-express-mongoose)
+Want to build something from scratch? use the [boilerplate](https://github.com/qiutian00/sharing-blog)
 
-* Checkout the [apps that are built using this approach](https://github.com/madhums/node-express-mongoose/wiki/Apps-built-using-this-approach)
-* The [wiki](https://github.com/madhums/node-express-mongoose/wiki) is wip, it has some information about the way application is setup.
+* Checkout the [apps that are built using this approach](https://github.com/qiutian00/sharing-blog/wiki/Apps-built-using-this-approach)
+* The [wiki](https://github.com/qiutian00/sharing-blog/wiki) is wip, it has some information about the way application is setup.
 
 ## Install
 
 ```sh
-$ git clone git://github.com/madhums/node-express-mongoose-demo.git
+$ git clone git://github.com/qiutian00/sharing-blog.git
 $ npm install
 $ cp .env.example .env
 $ npm start

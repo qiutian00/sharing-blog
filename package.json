@@ -10,10 +10,10 @@
   ],
   "version": "4.0.0",
   "private": false,
-  "author": "Madhusudhan Srinivasa <madhums8@gmail.com> (http://madhums.github.com)",
+  "author": "qiutian00 <qiutian00@outlook.com> (http://qiutian00.github.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/madhums/node-express-mongoose-demo.git"
+    "url": "https://github.com/qiutian00/sharing-blog.git"
   },
   "license": "MIT",
   "engines": {
