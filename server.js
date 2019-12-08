@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- *  nodejs-books
+ *  sharing-blog
  * contacted at 1476102147@qq.com
  * MIT Licensed
  */
@@ -12,7 +12,7 @@
 
 /*
  * nodejs-express-mongoose-demo
- * Copyright(c) 2013 Madhusudhan Srinivasa <madhums8@gmail.com>
+ * Copyright(c) 2013 qiutian00 <qiutian00@outlook.com>
  * MIT Licensed
  */
 
