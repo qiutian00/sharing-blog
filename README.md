@@ -5,7 +5,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/madhums/node-express-mongoose-demo.svg)](https://greenkeeper.io/)
 [![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/madhums/node-express-mongoose-demo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# Nodejs Books
+# Sharing Blog
 
 This is a demo application illustrating various features used in everyday web development, with a fine touch of best practices. The demo app is a blog application where users can signup, create an article, delete an article and add comments etc.
 
@@ -13,7 +13,7 @@ Table of contents:
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Nodejs Books](#nodejs-books)
+- [Sharing Blog](#sharing-blog)
   - [Boilerplate](#boilerplate)
   - [Install](#install)
   - [Tests](#tests)

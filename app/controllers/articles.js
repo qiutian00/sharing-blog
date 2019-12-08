@@ -7,7 +7,9 @@
 const mongoose = require('mongoose');
 const { wrap: async } = require('co');
 const only = require('only');
+// const debug = require('debug')('app');
 const { respond, respondOrRedirect } = require('../utils');
+const { parseMarkdownToHtmlStr } = require('../tools');
 const Article = mongoose.model('Article');
 const assign = Object.assign;
 
@@ -130,9 +132,13 @@ exports.update = async(function*(req, res) {
  */
 
 exports.show = function(req, res) {
-  respond(res, 'articles/show', {
-    title: req.article.title,
-    article: req.article
+  let mrkdStr = req.article.body || '';
+  parseMarkdownToHtmlStr(mrkdStr, function(getHtmlStr) {
+    req.article.body = getHtmlStr;
+    respond(res, 'articles/show', {
+      title: req.article.title,
+      article: req.article
+    });
   });
 };
 

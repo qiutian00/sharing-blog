@@ -114,5 +114,13 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
   cursor: pointer;
 }
+.article-body {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+  border-radius: 12px;
+}
+.content-hidden {
+  display: none;
+}
 /* add other css end
 -------------------------------------------------- */
