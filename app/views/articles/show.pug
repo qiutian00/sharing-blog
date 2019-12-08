@@ -9,7 +9,8 @@ block content
       //- .img-show
       //-   a(href="#")
       //-     img(src='/img/favicon.jpg')
-      p=article.body.slice(0, 1000)
+      //- p=article.body.slice(0, 1000)
+      p!=article.body
       .meta
         - if (article.user)
           - var name = article.user.name ? article.user.name : article.user.username
@@ -42,3 +43,5 @@ block content
     div(class=`py-3 ${index && 'border-top'}`)
       include ../comments/comment
   include ../comments/form
+
+  //- script(src="/js/tools/show.js",type="text/javascript")

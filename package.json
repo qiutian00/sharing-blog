@@ -64,12 +64,16 @@
   "devDependencies": {
     "babel-eslint": "~10.0.1",
     "babel-tape-runner": "~3.0.0",
+    "debug": "^4.1.1",
     "eslint": "~5.16.0",
     "eslint-config-prettier": "~4.1.0",
     "eslint-plugin-prettier": "~3.0.1",
     "nodemon": "1.18.11",
     "npm-check-updates": "~3.1.7",
     "prettier": "~1.17.0",
+    "remark": "^11.0.2",
+    "remark-html": "^10.0.0",
+    "remark-preset-lint-recommended": "^3.0.3",
     "supertest": "*",
     "tape": "~4.10.1"
   }
