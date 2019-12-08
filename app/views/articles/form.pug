@@ -26,9 +26,8 @@ block content
 
         .form-group
           label(for='desc') Body
-          textarea.form-control#desc(type="hidden", rows="5", name="body", placeholder='Enter the article description')=article.body
-          
-        div#editorSection
+          textarea.form-control.content-hidden#desc(type="hidden", rows="5", name="body", placeholder='Enter the article description')=article.body
+          div#editorSection
 
         .form-group
           label(for='tags') Tags

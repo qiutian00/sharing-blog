@@ -5,12 +5,13 @@ block main
 
 block content
   .row
-    .col-md-8
+    .col-md-12
       //- .img-show
       //-   a(href="#")
       //-     img(src='/img/favicon.jpg')
       //- p=article.body.slice(0, 1000)
-      p!=article.body
+      .article-body
+        p!=article.body
       .meta
         - if (article.user)
           - var name = article.user.name ? article.user.name : article.user.username
