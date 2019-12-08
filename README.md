@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/qiutian00/sharing-blog.svg?branch=master)](https://travis-ci.org/qiutian00/sharing-blog)
+[![Build Status](https://travis-ci.org/qiutian00/sharing-blog.svg?branch=dev)](https://travis-ci.org/qiutian00/sharing-blog)
 [![Dependencies](https://img.shields.io/david/qiutian00/sharing-blog.svg?style=flat)](https://david-dm.org/qiutian00/sharing-blog)
 <!-- [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/qiutian00/sharing-blog)
 [![Greenkeeper badge](https://badges.greenkeeper.io/qiutian00/sharing-blog.svg)](https://greenkeeper.io/)
