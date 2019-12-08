@@ -7,7 +7,7 @@
 const mongoose = require('mongoose');
 const { wrap: async } = require('co');
 const only = require('only');
-const debug = require('debug')('app')
+// const debug = require('debug')('app');
 const { respond, respondOrRedirect } = require('../utils');
 const { parseMarkdownToHtmlStr } = require('../tools');
 const Article = mongoose.model('Article');
@@ -96,7 +96,7 @@ exports.create = async(function*(req, res) {
  * Edit an article
  */
 
-exports.edit = function (req, res) {
+exports.edit = function(req, res) {
   res.render('articles/edit', {
     title: 'Edit ' + req.article.title,
     article: req.article
@@ -131,9 +131,9 @@ exports.update = async(function*(req, res) {
  * Show
  */
 
-exports.show = function (req, res) {
+exports.show = function(req, res) {
   let mrkdStr = req.article.body || '';
-  parseMarkdownToHtmlStr(mrkdStr, function (getHtmlStr) {
+  parseMarkdownToHtmlStr(mrkdStr, function(getHtmlStr) {
     req.article.body = getHtmlStr;
     respond(res, 'articles/show', {
       title: req.article.title,

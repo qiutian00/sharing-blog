@@ -9,11 +9,11 @@ module.exports = {
 
 function parseMarkdownToHtmlStr(mrkdStr, callback) {
   remark()
-  .use(recommended)
-  .use(html)
-  .process(mrkdStr || '## Hello world!', function (err, file) {
-    callback ? callback(String(file)) : ''
-    // console.error(report(err || file))
-    // console.log(String(file));
-  })
+    .use(recommended)
+    .use(html)
+    .process(mrkdStr || '## Hello world!', function(err, file) {
+      callback ? callback(String(file)) : '';
+      // console.error(report(err || file))
+      // console.log(String(file));
+    });
 }
