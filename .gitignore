@@ -10,3 +10,5 @@ data
 .gitconfig
 ## project tar
 nodejs-books.tar
+## webstrom
+.idea/*
