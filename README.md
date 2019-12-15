@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/qiutian00/sharing-blog.svg?branch=master)](https://travis-ci.org/qiutian00/sharing-blog)
 [![Dependencies](https://img.shields.io/david/qiutian00/sharing-blog.svg?style=flat)](https://david-dm.org/qiutian00/sharing-blog)
 [![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/qiutian00/sharing-blog)
-[![Greenkeeper badge](https://badges.greenkeeper.io/qiutian00/sharing-blog.svg)](https://greenkeeper.io/)
+<!-- [![Greenkeeper badge](https://badges.greenkeeper.io/qiutian00/sharing-blog.svg)](https://greenkeeper.io/) -->
 [![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/qiutian00/sharing-blog?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Sharing Blog
