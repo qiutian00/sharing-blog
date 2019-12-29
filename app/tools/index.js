@@ -17,3 +17,15 @@ function parseMarkdownToHtmlStr(mrkdStr, callback) {
       // console.log(String(file));
     });
 }
+
+// todo
+// const unified = require('unified');
+// const markdown = require('remark-parse');
+
+// function parseMarkdownToTreeData () {
+//   const tree = unified()
+//     .use(markdown)
+//     .parse('# Hello world!');
+//   console.log(tree);
+// }
+
