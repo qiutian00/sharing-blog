@@ -9,7 +9,7 @@ const { wrap: async } = require('co');
 const only = require('only');
 // const debug = require('debug')('app');
 const { respond, respondOrRedirect } = require('../utils');
-const { parseMarkdownToHtmlStr } = require('../tools');
+const { parseMarkdownToHtmlStr, parseMarkdownToTreeData } = require('../tools');
 const Article = mongoose.model('Article');
 const assign = Object.assign;
 
@@ -42,8 +42,14 @@ exports.index = async(function*(req, res) {
 
   if (_id) options.criteria = { _id };
 
-  const articles = yield Article.list(options);
+  let articles = yield Article.list(options);
   const count = yield Article.countDocuments();
+
+  articles = articles.map((article) => {
+      article.body = parseMarkdownToTreeData(article.body);
+      return article;
+    }
+  );
 
   respond(res, 'articles/index', {
     title: 'Articles',

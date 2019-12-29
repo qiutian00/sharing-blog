@@ -4,7 +4,8 @@ const html = require('remark-html');
 // const report = require('vfile-reporter');
 
 module.exports = {
-  parseMarkdownToHtmlStr
+  parseMarkdownToHtmlStr,
+  parseMarkdownToTreeData
 };
 
 function parseMarkdownToHtmlStr(mrkdStr, callback) {
@@ -18,14 +19,28 @@ function parseMarkdownToHtmlStr(mrkdStr, callback) {
     });
 }
 
-// todo
-// const unified = require('unified');
-// const markdown = require('remark-parse');
+const unified = require('unified');
+const markdown = require('remark-parse');
+const P_TYPE = 'paragraph';
+const TEXT_TYPE = 'text';
 
-// function parseMarkdownToTreeData () {
-//   const tree = unified()
-//     .use(markdown)
-//     .parse('# Hello world!');
-//   console.log(tree);
-// }
+function parseMarkdownToTreeData (mrkdStr) {
+  const treeData = unified()
+    .use(markdown)
+    .parse(mrkdStr || `# Hello world! 
+    this is span show`);
+  
+  let returnStr = '文章内容截取';
+  let childrenData = treeData.children;
+  // get the second node or get the first node
+  let secondNodeData = childrenData[0] ? childrenData[0].children : [];
+  // console.log(childrenData[1]);
+  for (let oneChildren of secondNodeData) {
+    if (oneChildren.type == TEXT_TYPE) {
+      returnStr = oneChildren.value;
+    }
+  }
+  console.log(returnStr);
+  return returnStr;
+}
 
